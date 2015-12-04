@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A8C6A324309C4F2A8DD689C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 860797D5F9817634C930D632 /* SystemConfiguration.framework */; };
 		2586C93C18C606A9002D05D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2586C93B18C606A9002D05D1 /* Foundation.framework */; };
 		2586C93E18C606A9002D05D1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2586C93D18C606A9002D05D1 /* CoreGraphics.framework */; };
 		2586C94018C606A9002D05D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2586C93F18C606A9002D05D1 /* UIKit.framework */; };
@@ -22,6 +23,10 @@
 		2586C96518C606A9002D05D1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2586C96318C606A9002D05D1 /* InfoPlist.strings */; };
 		2586C96718C606A9002D05D1 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2586C96618C606A9002D05D1 /* Git_TestTests.m */; };
 		2586C97218C60A0B002D05D1 /* XYZTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2586C97118C60A0B002D05D1 /* XYZTest.m */; };
+		4CE40354D98DDEF0E02CCED5 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE70F1B484EA5FBBE91F018D /* AssetsLibrary.framework */; };
+		4F10F2F8A45E98AFC3BFB2EA /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A01015ECAA8B942FC199B28 /* BuddyBuildSDK.framework */; };
+		D1B46B80AAD0EEDB97A3134C /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AA7AAB54BBFA6D0309B9416 /* CoreTelephony.framework */; };
+		E5E93A98BC3FD054D7F08518 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 334B87A61C512A8B425E6308 /* CoreText.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +61,11 @@
 		2586C96618C606A9002D05D1 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
 		2586C97018C60A0B002D05D1 /* XYZTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZTest.h; sourceTree = "<group>"; };
 		2586C97118C60A0B002D05D1 /* XYZTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZTest.m; sourceTree = "<group>"; };
+		2AA7AAB54BBFA6D0309B9416 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		334B87A61C512A8B425E6308 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		7A01015ECAA8B942FC199B28 /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
+		860797D5F9817634C930D632 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BE70F1B484EA5FBBE91F018D /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +76,11 @@
 				2586C93E18C606A9002D05D1 /* CoreGraphics.framework in Frameworks */,
 				2586C94018C606A9002D05D1 /* UIKit.framework in Frameworks */,
 				2586C93C18C606A9002D05D1 /* Foundation.framework in Frameworks */,
+				4F10F2F8A45E98AFC3BFB2EA /* BuddyBuildSDK.framework in Frameworks */,
+				4CE40354D98DDEF0E02CCED5 /* AssetsLibrary.framework in Frameworks */,
+				E5E93A98BC3FD054D7F08518 /* CoreText.framework in Frameworks */,
+				D1B46B80AAD0EEDB97A3134C /* CoreTelephony.framework in Frameworks */,
+				1A8C6A324309C4F2A8DD689C /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +123,11 @@
 				2586C93D18C606A9002D05D1 /* CoreGraphics.framework */,
 				2586C93F18C606A9002D05D1 /* UIKit.framework */,
 				2586C95A18C606A9002D05D1 /* XCTest.framework */,
+				7A01015ECAA8B942FC199B28 /* BuddyBuildSDK.framework */,
+				BE70F1B484EA5FBBE91F018D /* AssetsLibrary.framework */,
+				334B87A61C512A8B425E6308 /* CoreText.framework */,
+				2AA7AAB54BBFA6D0309B9416 /* CoreTelephony.framework */,
+				860797D5F9817634C930D632 /* SystemConfiguration.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -385,6 +405,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Git Test/Git Test-Prefix.pch";
 				INFOPLIST_FILE = "Git Test/Git Test-Info.plist";
@@ -398,6 +422,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Git Test/Git Test-Prefix.pch";
 				INFOPLIST_FILE = "Git Test/Git Test-Info.plist";
@@ -467,6 +495,7 @@
 				2586C96C18C606A9002D05D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2586C96D18C606A9002D05D1 /* Build configuration list for PBXNativeTarget "Git TestTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +504,7 @@
 				2586C96F18C606A9002D05D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
